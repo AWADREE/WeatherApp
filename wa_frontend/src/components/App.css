@@ -2,6 +2,8 @@
   text-align: center;
   padding: 0px;
   margin: 0px;
+  /* background-color: #fdf7f4; */
+  background-color: var(--secondary-color);
 }
 
 #container {
@@ -9,6 +11,7 @@
   flex-direction: column;
   padding: 0px;
   margin: 0px;
+  min-height: 100vh;
 }
 /* @keyframes App-logo-spin {
   from {

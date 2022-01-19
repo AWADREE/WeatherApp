@@ -6,10 +6,18 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: rgb(0, 87, 158);
+  /* background-color: rgb(0, 87, 158); */
+  /* background-color: #325288; */
+  background-color: var(--dominant-color);
 }
 
 .footer_style div {
   color: white;
   padding: 6px;
+}
+.footer_style {
+  /* position: absolute; */
+  bottom: 0;
+  margin-bottom: 0;
+  margin-top: auto;
 }

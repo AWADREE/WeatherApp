@@ -1,13 +1,24 @@
+.forcast {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: azure;
+  border-radius: 30px;
+  padding: 20px;
+}
+.location-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .location-style {
   display: flex;
-  flex-direction: row;
-  margin-top: 20px;
   background-color: azure;
+  padding-top: 0px;
 }
 
 .location-style h3,
 h4 {
-  color: #067ca0;
+  color: var(--dominant-color);
 }
 
 .location-style h4 {
@@ -21,10 +32,13 @@ h4 {
   flex-wrap: wrap;
   font-size: 12px;
   list-style-type: none;
+  padding-left: 0px;
+  margin-top: 5px;
 }
 
 .location-style ul li {
-  border: 1px solid #006483;
+  border: 1px solid var(--dominant-color);
   padding: 8px;
   margin: 5px;
+  border-radius: 15px;
 }
