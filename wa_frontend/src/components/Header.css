@@ -8,6 +8,13 @@
   margin-bottom: 20px;
 }
 
+.icon {
+  height: 50px;
+  width: 50px;
+  color: white;
+  fill: "white";
+}
+
 .header-style div {
   color: #ffffff;
   font-size: 48px;
