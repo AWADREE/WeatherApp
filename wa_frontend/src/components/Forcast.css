@@ -1,9 +1,9 @@
 .forcast {
   margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: azure;
-  border-radius: 30px;
-  padding: 20px;
+  margin-bottom: 5px;
+  background-color: var(--tertiary-color);
+  /* border-radius: 30px; */
+  padding: 8px;
 }
 .location-name {
   margin-top: 0px;
@@ -12,7 +12,7 @@
 
 .location-style {
   display: flex;
-  background-color: azure;
+  background-color: var(--tertiary-color);
   padding-top: 0px;
 }
 
@@ -34,6 +34,7 @@ h4 {
   list-style-type: none;
   padding-left: 0px;
   margin-top: 5px;
+  justify-content: center;
 }
 
 .location-style ul li {
