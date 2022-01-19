@@ -26,8 +26,8 @@ const Forcast = (props) => {
   };
 
   return (
-    <div>
-      <h4>
+    <div className="forcast">
+      <h4 className="location-name">
         {props.city}
         <br />
         <span>Time: {props.time}</span>
